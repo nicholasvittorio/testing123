@@ -1,0 +1,1224 @@
+Google Cloud Platform (GCP) provides a variety of service choices. Which of the following services is infrastructure as a service (IaaS)? (Choose 1)
+A. App Engine
+B. Cloud Function
+C. Compute Engine
+D. Google Kubernetes Engine	C. Compute Engine
+
+Feedback: Compute Engine is the correct answer. WIth IaaS, only the underlying architecture is provided. The user still has to select and care for an operating system and install the required applications.
+The Google Cloud Platform (GCP) hierarchy helps you manage resources across multiple departments and multiple teams within an organization. Which of the following is at the top level of this hierarchy? (Choose 1)
+A. Folder
+B. Organization
+C. Project
+D. Resource	B. Organization
+
+Feedback: The top level of a GCP hierarchy is an organization. Permissions set on the organization will be inherited by all child resources.
+Cloud Identity and Access Management (Cloud IAM) allows you to manage privileges. What do these privileges apply to? (Choose 1)
+A. Applications.
+B. Operating systems.
+C. Google Cloud Platform (GCP) resources.
+D. Applications, GCP, and operating systems.	C. Google Cloud resources.
+
+Feedback: IAM only applies to the GCP resources you use. Application and operating system security must be handled separately.
+Projects form part of the Google Cloud Platform (GCP) resources hierarchy. Which of the following is true concerning projects? (Choose 1)
+A. Projects are only used for billing.
+B. You can nest projects inside projects.
+C. Projects are allocated a changeable Project ID.
+D. All resources must be associated with a project.	D. All resources must be associated with a project.
+
+Feedback: The GCP resources you use, no matter where they reside, must belong to a project.
+Google Cloud provides resources in multi-regions, regions, and zones. What best describes a zone? (Choose 1)
+A. An edge location.
+B. One or more data centers.
+C. A point of presence (PoP).
+D. Geographic location to leverage services.	B. One or more data centers.
+
+Feedback: Regions are made up of zones. Each Region will have at least 3 data centers or zones to provide high availability.
+What type of service best describes Google Kubernetes Engine? (Choose 1)
+A. Hybrid
+B. IaaS
+C. PaaS
+D. SaaS	A. Hybrid
+
+Feedback: GKE is a hybrid service. On the one hand, the infrastructure is managed for Kubernetes. But you still have to run Kubernetes to build your applications.
+Which of the following best describes a major advantages GCP has over other cloud providers? (Choose 1)
+A. Google uses satellite links as a way of interconnecting Regions, Zones, and POPS..
+B. Google leverages traditional networking gear from commercial vendors..
+C. Google leases fiber from multiple vendors. In the event of a vendor's fiber failing, another vendors network can be used as a backup.
+D. Google owns one of the largest networks in the world. All regions and zones are connected on the same network.	D. Google owns one of the largest networks in the world. All regions and zones are connected on the same network.
+
+Feedback: Google owns one of the worlds largest networks with 100,000s of kilometers of fiber and over 100 POPs all interconnecting regions and zones. The network also leverages multiple intercontinental fiber connections.
+Regions are independent geographic areas on the same continent. Which of the following is a regional service? (Choose 1)
+A. Cloud Datastore
+B. HTTPS Load Balancer
+C. Network
+D. Virtual machine	A. Cloud Datastore
+
+Feedback: Cloud Datastore is an example of a service that is regional. HTTPS load balancers and networks are global, and virtual machines are zonal.
+What is the purpose of a folder? (Choose 1)
+A. Used to organize projects.
+B. Used to organize instances.
+C. Used to organize users.
+D. Folders are not part of the hierarchy.	A. Used to organize projects.
+
+Feedback: Folders are used to organize projects. You can put projects or other folders into a folder.
+What does it mean for a system to be elastic? (Choose 1)
+A. The system is multi-cloud.
+B. The system can bounce back after an outage.
+C. The system can be moved from region to region.
+D. The system can add and remove resources based on need.	D. The system can add and remove resources based on need.
+
+Feedback: Elastic systems can add or remove resources based on performance needs.
+You are using Google Cloud to provide a platform as a service (PaaS) solution using App Engine. When will you be billed for the resources required? (Choose 1)
+A. You pay for the resources during peak periods.
+B. You pay for the resources when you allocate them.
+C. You pay for the resources when they are consumed.
+D. You pay for the resources when you deploy the application.	C. You pay for the resources when they are consumed.
+
+Feedback: When using a PaaS model service offering like App Engine in Google Cloud, you are only billed when the resource is actually running.
+You want to migrate data from your old database to the cloud. You do not want to manage the underlying architecture or the database application. Which cloud service type should you choose? (Choose 1)
+A. IaaS
+B. SaaS
+C. PaaS
+D. Hybrid	B. SaaS
+
+Feedback: For software as a service, the infrastructure, platform, and software is managed for you. All that's required is that you bring your data to the system.
+You have changed the name of your project. You want to change the name of the project ID as well, but are not able to do so. Why is this? (Choose 1)
+A. The name of the project has been changed.
+B. The project ID and project number are fixed.
+C. The relevant Cloud Identity and Access Management (Cloud IAM) privileges are not assigned to you.
+D. The relevant Cloud Identity and Access Management (Cloud IAM) policies are not assigned to you.	B. The project ID and project number are fixed.
+
+Feedback: The project number and project ID are unique across Google Cloud and cannot be changed. The project ID is generated from the project name you enter when you create the project in the Cloud Console.
+You need to recover a Compute Engine instance that was in a project that you just accidentally deleted. You do not have a backup or archive copy of the instance. How can you retrieve this instance? (Choose 1)
+A. Recreate the project folder.
+B. The instance cannot be recovered.
+C. Recover the deleted compute instance.
+D. Restore the project from accidental deletion.	D. Restore the project from accidental deletion.
+
+Feedback: Project owners can restore a deleted project within the 30-day recovery period that starts when the project is shut down. Restoring a project returns it to the state it was in before it was shut down.
+You need to deploy several applications to the us-central1 region. How should you deploy the applications to enable fault tolerance and high availability? (Choose 1)
+A. Deploy the applications in a single zone.
+B. Deploy the applications to a different region.
+C. Deploy duplicate applications in a single zone.
+D. Deploy the applications across multiple zones.	D. Deploy the applications across multiple zones.
+
+Feedback: Deploying applications across multiple zones enables fault tolerance and high availability. Putting resources in different zones in a region provides isolation from most types of physical infrastructure and infrastructure software service failures.
+How would you configure the Cloud SDK to work on your laptop? (Choose 1)
+A. Edit the .profile file of the SDK.
+B. Run the gcloud init command.
+C. Sync your laptop with Cloud Shell.
+D. Download the config file from https://cloud.google.com.	B. Run the gcloud init command.
+
+Feedback: The gcloud init command sets your login, your default project, and your default region and zone.
+Which command line tool can be used to manage Cloud Storage? (Choose 1)
+A. bq
+B. Cloud Shell
+C. gcloud
+D. gsutil	D. gsutil
+
+Feedback: The gsutil CLI tool is used for managing Cloud Storage.
+True or False. When using Cloud Shell you must also install the Cloud SDK locally to manage your projects and resources.	False
+
+Feedback: The answer is False. Using Cloud Shell, you can manage your projects and resources easily without having to install the Cloud SDK or other tools locally.
+True or False. Cloud Shell code editor is one of the developer tools built into the Cloud console.	True
+
+Feedback: The answer is True. Cloud Shell, Cloud Shell code editor, and Cloud Source Repositories are all examples of developer tools built into the GCP console.
+Every Cloud service you use is associated with a project. Which of the following statements regarding projects are correct? (Choose 2)
+A. Projects have a single owner.
+B. A project cannot be restored once deleted.
+C. Projects are billed and managed collectively.
+D. Projects are the basis for enabling and using GCP services.
+E. Each project is a separate account, and each resource belongs to exactly one.	D. Projects are the basis for enabling and using GCP services.
+E. Each project is a separate account, and each resource belongs to exactly one.
+
+Feedback: Projects are the basis for enabling and using GCP services, like managing APIs, enabling billing, adding and removing collaborators, and enabling other Google services. Each project is a separate account, and each resource belongs to exactly one. Projects can have different owners and users. They're billed separately, and they're managed separately.
+How would you configure billing notifications in GCP? (Choose 1)
+A. Configure budgets and alerts.
+B. Set up a billing alert in Stackdriver.
+C. Use Cloud Functions to fire off an email with daily budget totals.
+D. Enable a script using cron to kick off when a threshold is reached.	A. Configure budgets and alerts.
+
+Feedback: To be notified when costs approach your budget limit, you can define a budget and create an alert.
+What best describes the purpose of quotas? (Choose 2)
+A. Quotas are used to send billing alerts.
+B. Configuration used to prevent billing surprises.
+C. Configuration used by Google to prevent building large systems.
+D. Configuration used to prevent over consumption due to malicious attacks.
+E. Quotas can automatically build infrastructure based on Stackdriver metrics.	B. Configuration used to prevent billing surprises.
+D. Configuration used to prevent over consumption due to malicious attacks.
+
+Feedback: Google Cloud Platform (GCP) enforces quotas on resource usage, setting a hard limit on how much of a particular GCP resource a project can use. Quotas are designed to help prevent billing surprises and to prevent overconsumption of resources due to malicious attacks.
+True or False. s3config is a command-line option for the Cloud SDK?	False
+
+Feedback: The answer is False. s3config is not a command-line option. gcloud (all), gsutil (Cloud Storage), and bq (BigQuery) are the command-line options that are part of the Cloud SDK.
+How would you test a Google API and learn how it works? (Choose 1)
+A. Use the help files in Cloud Shell.
+B. Use the gcloud command in the Cloud SDK.
+C. Use the APIs Explorer that is part of the GCP console.
+D. Use the console to get the directions on how to build the api by service.	C. Use the APIs Explorer that is part of the Cloud console.
+
+Feedback: APIs Explorer helps you learn about the APIs interactively. It lets you see what APIs are available, in what versions, as well as how they work.
+In what format will a majority of the APIs return data in? (Choose 1)
+A. JSON
+B. TEXT
+C. XML
+D. YAML	A. JSON
+
+Feedback: The format an API will return data in is JSON.
+You want team members working on separate projects to be able to collaborate on the development of an application. You want to manage all access to the project and development in Google Cloud. Which Google Cloud service will allow your team to store, manage, and track code? (Choose 1)
+A. Cloud API
+B. Cloud Storage
+C. Cloud Source Repositories
+D. The Cloud Shell code editor	C. Cloud Source Repositories
+
+Feedback: Cloud Source Repositories provides Git version control to support collaborative development of any application or service.
+You require detailed usage and cost estimation information about a project from your Google Cloud billing data. What action can you take in the Google Cloud Billing console to accomplish this? (Choose 1)
+A. Export the information to Cloud APIs.
+B. Export the billing information to Google Data Studio.
+C. Export the information to a BigQuery dataset.
+D. Export the statistical information to Cloud Logging.	C. Export the information to a BigQuery dataset.
+
+Feedback: Cloud Billing export to BigQuery enables you to export detailed Google Cloud billing data (such as usage and cost estimate data) automatically throughout the day to a BigQuery dataset that you specify. Then you can access your Cloud Billing data from BigQuery for detailed analysis, or use a tool like Data Studio to visualize your data.
+You are a reseller of Google Cloud services. You want to invoice your clients separately for the resources that they use. How can you achieve this? (Choose 1)
+A. Set up a billing subaccount for each customer.
+B. Link billing account information at the resource level.
+C. Create a new billing account for every single customer.
+D. Create a billing account basic user for each customer.	A. Set up a billing subaccount for each customer.
+
+Feedback: Billing subaccounts allow you to group charges from projects together on a separate section of your invoice. A billing subaccount is a billing account with a billing linkage to a reseller's master billing account on which the charges appear. Subaccounts are intended for resellers.
+You are onboarding a new co-worker. You want them to familiarize themselves with Google Cloud but not start any resources which could incur a cost. What action can you take? (Choose 1)
+A. Create a project with only free resources.
+B. Provide training credits to the new co-worker.
+C. Create a project that does not link to a billing account.
+D. Create a script that deletes instances when they incur a cost.	C. Create a project that does not link to a billing account.
+
+Feedback: You can link your billing account to zero or more projects. Projects that you do not link to any billing account can only use free Google Cloud services.
+You want to automatically shutdown resources in a project if the budget exceeds a specified amount. What actions can you take to accomplish this? (Choose 2)
+A. Define an alert at the billing account level.
+B. Create a service account with the iam.serviceAccounts.delete role.
+C. Assign the compute.quotas.get permission to the billing account role.
+D. Create a webhook in response to the alert that will trigger a shutdown script.
+E. Create an alert to notify the Billing Account Administrator to shutdown the resources manually.	A. Define an alert at the billing account level.
+D. Create a webhook in response to the alert that will trigger a shutdown script.
+
+Feedback: You can set up a webhook to be called in response to an alert. This webhook can control automation based on billing alerts.
+You want to edit the code of a sample application from within your Cloud Shell environment. You do not want to launch a text based editor from the Cloud Shell prompt. What tool can you utilize to achieve this? (Choose 1)
+A. Notepad
+B. Visual Editor (VI)
+C. The Cloud Shell SDK
+D. The Cloud Shell code editor	D. The Cloud Shell code editor
+
+Feedback: The built-in Cloud Shell code editor provides the convenience of viewing and editing files in the same environment where projects are built and deployed.
+[LAB - A Tour of Qwiklabs and Google Cloud] You want to add additional members to your project but are unable to do so. In the Cloud Console in the cloud IAM & admin section you can see that you have the roles/viewer permission. What role do you need in order to add a member to the project? (Choose 1)
+A. roles/owner
+B. roles/editor
+C. roles/custom
+D. iam/serviceAccounts.actAs	A. roles/owner
+
+Feedback: You need to have the basic role of roles/owner in order nanage roles and permissions for a project and all resources within the project.
+[LAB - A Tour of Qwiklabs and Google Cloud] You want to ensure that files you are working on in the Cloud Shell persist across multiple sessions. What action must you take to ensure this happens? (Choose 1)
+A. Save the files in your home directory.
+B. All saved files are persistent across sessions.
+C. Archive your files to a persistent disk.
+D. Export your files to Cloud Storage.	A. Save the files in your home directory.
+
+Feedback: The contents of your Cloud Shell Home directory persists across projects between all Cloud Shell sessions, even after the virtual machine terminates and is restarted.
+[LAB - Getting Started with Cloud Shell & gcloud] You want to use the auto-prompting feature to help you learn the gcloud command syntax. What actions must you take in the Cloud Shell in order to enable auto prompting for commands and flags with inline help snippets? (Choose 1)
+A. Auto complete functionality is enabled by default.
+B. Click on the Tab key twice to enable gcloud interactive mode.
+C. Install the gcloud beta components and enter gcloud interactive mode.
+D. Change to your current working directory and run autocomplete.	C. Install the gcloud beta components and enter gcloud interactive mode.
+
+Feedback: Gcloud interactive has auto prompting for commands and flags, and displays inline help snippets in the lower section as the command is typed. Static information, like command and sub-command names, and flag names and enumerated flag values, are auto-completed using dropdown menus. When using the interactive mode, click on the Tab key to complete file path and resource arguments.
+[LAB - Getting Started with Cloud Shell & gcloud] You are using the Cloud Shell to create a virtual machine. You run the gcloud compute command to create a virtual machine but omit the --zone flag. What effect will this have when provisioning the machine? (Choose 1)
+A. The virtual machine will be created initially but fail.
+B. Gcloud will prompt you to enter the zone information.
+C. Gcloud will infer your desired zone based on your default properties.
+D. The virtual machine will be deployed in the nearest zone to your location.	C. Gcloud will infer your desired zone based on your default properties.
+
+Feedback: If you omit the --zone flag, gcloud can infer your desired zone based on your default properties. Other required instance settings, like machine type and image, if not specified in the create command, are set to default values.
+None of the pre-defined instance types fit your application. What do you do? (Choose 1)
+A. Set up autoscaling.
+B. Do nothing, the instance will size itself.
+C. Over allocate resources for the instance.
+D. Create a custom virtual machine that fits your needs.	D. Create a custom virtual machine that fits your needs.
+
+Feedback: Custom instance types are useful when none of the pre-defined options meet your needs or you need to use GPUs or a specific CPU platform.
+True or False. Compute Engine pricing is based on a daily rate for the instance.	False
+
+Feedback: The answer is False. You are billed for the first minute at boot-time and then per second of use.
+True or False. Stackdriver metrics can be used to trigger an autoscaling event.	True
+
+Feedback: The answer is True. Stackdriver metrics, CPU usage, and load balancer usage are all examples of triggers for an autoscaling event.
+Which of the following virtual disk types is ephemeral? (Choose 1)
+A. Cloud Storage
+B. HD Persistent Disk
+C. Local SSD
+D. SSD Persistent Disk	C. Local SSD
+
+Feedback: Local SSD disks are ephemeral. If the VM is shut down or crashes the disk gets destroyed.
+You want to use App Engine, but you will need to use a custom runtime. Which of the following is the best option? (Choose 1)
+A. App Engine Internal
+B. App Engine Flexible
+C. App Engine Standard
+D. Google Kubernetes Engine	B. App Engine Flexible
+
+Feedback: App Engine Flexible allows for custom runtimes, use of persistent disks, and the ability to log into the infrastructure.
+Time-to-market is highly valuable to you and you want to be able to focus on writing code without ever having to touch a server, cluster, or infrastructure. Which service suits your needs? (Choose 1)
+A. App Engine
+B. Compute Engine
+C. BigQuery
+D. Google Kubernetes Engine	A. App Engine
+
+Feedback: App Engine is a PaaS option. The only part of the infrastructure you manage is your code.
+True or False. Python is a runtime option for Cloud Functions.	True
+
+Feedback: The answer is True. Cloud Functions supports code written in Go, Python, and Node.js.
+Which of the following can trigger Cloud Functions?
+A. App Engine notification
+B. Email
+C. Stackdriver alert
+D. Webhook	D. Webhook
+
+Feedback: Cloud Functions can be triggered by a webhook, an action to a Cloud Storage bucket, or a message in Cloud Pub/Sub.
+Google Kubernetes Engine is built on the open-source Kubernetes system. Which of the following statements best describes what Kubernetes is? (Choose 1)
+A. A format of container.
+B. A virtualization platform.
+C. An orchestration engine to manage containers.
+D. An execution environment for building and connecting cloud services.	C. An orchestration engine to manage containers.
+
+Feedback: Kubernetes is used for container orchestration. It helps you manage your containerized application environment.
+Which of the following is the container format used with Google Kubernetes Engine? (Choose 1)
+A. Docker
+B. Glassfish
+C. Rocket
+D. Spinnaker	A. Docker
+
+Feedback: Docker is the container format of choice for GKE. Spinnaker, Rocket, and Glassfish are not container formats.
+You are building a VM for data analysis. You want a disk that will deliver very high Input/Output operations (IOPs) and very low latency. The files will be copied to the VM from Cloud Storage in order to perform the analysis. Which option should you choose? (Choose 1)
+A. File Store
+B. Local SSD
+C. HDD Persistent Disk
+D. Cloud Storage bucket	B. Local SSD
+
+Feedback: Unlike persistent disks, local SSDs are physically attached to the server that hosts your VM instance. This tight coupling offers superior performance, very high input/output operations per second (IOPS), and very low latency compared to persistent disks. Local SSD disks are ephemeral. If you store important data in a local SSD device, you must also store that same data in a durable storage option.
+You created several single vCPU virtual machines with SSD persistent disks attached for an application. The amount of input/output operations per second (IOPs) required by the application have increased and performance is no longer satisfactory. What actions can you take to improve disk I/O? (Choose 2)
+A. Defragment the volume.
+B. Reduce the number of vCPU.
+C. Increase the number of vCPUs.
+D. Increase the number of volumes attached.
+E. Increase the size of the SSD persistent disks.	C. Increase the number of vCPUs.
+E. Increase the size of the SSD persistent disks.
+
+Feedback: IOPS performance of SSD persistent disks depends on the number of vCPUs in the instance in addition to disk size. Performance scales linearly until it reaches either the limits of the volume or the limits of each Compute Engine instance.
+You need to deploy a web application that has been provided by your development team as a Docker container. You do not want to manage any infrastructure for this application. Which Google compute environment should you choose? (Choose 1)
+A. Cloud Functions
+B. App Engine Flexible
+C. App Engine Standard
+D. Google Kubernetes Engine	B. App Engine Flexible
+
+Feedback: App Engine Flexible runs your application in a Docker container environment and is a fully managed service.
+You want to use Cloud Functions to create a response to certain events.
+You also want to capture and act on these events. What must you configure to achieve this? (Choose 2)
+A. Create a trigger.
+B. Write an API call.
+C. Write a function in Ruby.
+D. Bind a function to a trigger.
+E. Allocate compute instance resources.	A. Create a trigger.
+D. Bind a function to a trigger.
+Feedback: Creating a response to an event is done with a trigger. A trigger is a declaration that you are interested in a certain event or set of events. Binding a function to a trigger allows you to capture and act on events.
+You want to deploy a web server in a containerized environment. You also want to install the system on local servers in the cloud, manage container networking and data storage, deploy rollouts and rollbacks, and monitor and manage container and host health. Which solution should you choose? (Choose 1)
+A. Cloud Functions
+B. App Engine flexible environment
+C. App Engine standard environment
+D. Google Kubernetes Engine	D. Google Kubernetes Engine
+
+Feedback: Kubernetes is a container orchestration tool you can use to simplify the management of containerized environments. You can install Kubernetes on a group of your own managed servers or run it as a hosted service in Google Cloud on a cluster of managed Compute Engine instances called Google Kubernetes Engine.
+Kubernetes makes it easy to orchestrate many containers on many hosts, scale them as microservices, and deploy rollouts and rollbacks. It was built by Google to run applications at scale. Kubernetes lets you install the system on local servers in the cloud, manage container networking and data storage, deploy rollouts and rollbacks, and monitor and manage container and host health.
+[LAB - Creating a Virtual Machine] You want to configure a virtual machine with a large amount of RAM. Which option in the Cloud Console should you modify when creating the virtual machine to select the amount of RAM? (Choose 1)
+A. CPU Platform
+B. Reservations
+C. Machine Type
+D. Instance Type	C. Machine Type
+
+Feedback: A machine type is a set of virtualized hardware resources available to a virtual machine (VM) instance, including the system memory size, virtual CPU (vCPU) count, and persistent disk limits.
+[LAB - Creating a Virtual Machine] You deploy a virtual machine in the Google Cloud Shell using the following command 'gcloud compute instances create gcelab2 --machine-type n1-standard-2 --zone us-central1-a'. What operating system is deployed by default? (Choose 1)
+A. The latest CentOS image.
+B. The latest Ubuntu image.
+C. The latest Debian image.
+D. The latest Windows image.	C. The latest Debian image.
+
+Feedback: There are a number of images to choose from, including: Debian, Ubuntu, CoreOS as well as premium images such as Red Hat Enterprise Linux and Windows Server. Debian is the default OS deployed.
+[LAB - Creating a Virtual Machine] You want to create a virtual machine running the latest version of the SUSE Linux Enterprise Server operating system. Which option in the Cloud Console should you modify when creating the virtual machine? (Choose 1)
+A. Boot disk
+B. Machine Type
+C. Machine Family
+D. Machine Configuration	A. Boot disk
+
+Feedback: Modifying the boot disk option allows you to change the operating system type, version, boot disk type and the size in gigabytes of the disk.
+[LAB - Creating a Virtual Machine] You have connected to your Linux virtual machine using the SSH Connect button in the Cloud Console. You run the command 'apt-get update' but receive the error 'permission denied.' What action must you take in order to run the command? (Choose 1)
+A. Get root access using the sudo command and retry.
+B. Change to the current user's HOME directory and retry.
+C. Change your Role in the IAM & Admin console and retry.
+D. Run the command in the Cloud Console and redirect to the VM.	A. Get root access using the sudo command and retry.
+
+Feedback: Sudo allows your user to run the apt-get command with the security privileges of root.
+[LAB - App Engine: Qwik Start - Python] You are testing an application that you are developing for deployment on Google App Engine locally using the Google Cloud development server (dev_appserver.py). You make a change to the welcome message that is displayed in your application's main.py file and save it. What action must you now take in order to view the change? (Choose 1)
+A. Restart the application
+B. Redeploy the application
+C. Reload your web browser
+D. Restart the development server	C. Reload your web browser
+
+Feedback: You can leave the local dev_appserver.py development server running while you develop your application. The development server watches for changes in your source files and reloads them if necessary. Reloading the web browser is sufficient to see the change.
+[LAB - App Engine:Qwik Start - Python] You want to deploy your application using App Engine. You execute the command 'gcloud app deploy' without specifying any additional parameters. What is the next action you must perform before Google App Engine is deployed? (Choose 1)
+A. Choose the Cloud Storage bucket location.
+B. Choose the repository location for the YAML files.
+C. Choose the zone where App Engine will be created.
+D. Choose the region where App Engine will be located.	D. Choose the region where App Engine will be located.
+
+Feedback: When you deploy App Engine you will be prompted for the region that you want to locate it in. You enter the number that represents your region and the App Engine application will then be created.
+[LAB - Cloud Functions: Qwik Start - Command Line] You have created a function called helloWorld that parses the call to the function and logs a message. You execute the command 'gcloud beta functions call helloWorld --data '{"message":"Hello World!"}' to test that the function writes a message to the cloud log. What can you search for in the Cloud Functions logs to verify that the specific test call you made completed successfully? (Choose 1)
+A. LEVEL
+B. NAME
+C. EXECUTION_ID
+D. FUNCTION LOG	C. EXECUTION_ID
+
+Feedback: After you deploy a function and know that it is active, you can test that the function writes a message to the cloud log. The cloud tool returns the execution ID for the function, which means a message has been written in the log. You can view the logs to confirm that there are log messages with that execution ID.
+GCP has many storage options. Which would be the best option for unstructured storage? (Choose 1)
+A. Cloud Bigtable
+B. Cloud Datastore
+C. Cloud SQL
+D. Cloud Storage	D. Cloud Storage
+
+Feedback: Cloud Storage is an HTTPS-based object store that is ideal for unstructured storage.
+What is the largest object that you can store in Cloud Storage? (Choose 1)
+A. 1 GB
+B. 5 TB
+C. Unlimited
+D. Dependant on the storage class	B. 5 TB
+
+Feedback: While Cloud Storage offers a virtually unlimited amount of storage, a single object has a limitation of 5 TB.
+What Cloud Storage storage class would be an inexpensive option for backups that you test once a month? (Choose 1)
+A. Coldline
+B. Multi-regional
+C. Nearline
+D. Regional	C. Nearline
+
+Feedback: Nearline storage is designed to provide inexpensive storage for items accessed no more than once a month. While the price for storing objects is cheaper than Standard, Nearline charges for access to storage.
+GCP has different options for SQL-based managed services. Which of these options is horizontally scalable and globally available? (Choose 1)
+A. Cloud Bigtable
+B. Cloud Datastore
+C. Cloud Spanner
+D. Cloud SQL	C. Cloud Spanner
+
+Feedback: Cloud Spanner is unique in that it is a horizontally scalable, globally available database service offering up to five nines of availability.
+Which of the following database engines does Cloud SQL support? (Choose 2)
+A. DB2
+B. MongoDG
+C. MySQL
+D. Oracle
+E. PostgreSQL	C. MySQL
+E. PostgreSQL
+
+Feedback: Cloud SQL supports PostgreSQL, MySQL, and SQL Server.
+True or False. You can use existing SQL skills to query data in Cloud Spanner.	True
+
+Feedback: The answer is True. You can use existing SQL skills to query data in Cloud Spanner using familiar, industry-standard ANSI SQL 2011.
+Cloud Datastore is a NoSQL based managed service. Which statement best describes Cloud Datastore? (Choose 1)
+A. A document store
+B. A data warehouse
+C. A relational database
+D. A sparse, wide-column database	A. A document store
+
+Feedback: Cloud Datastore is a document store similar to a Mongo Database.
+Cloud Bigtable provides a NoSQL based managed service option. Which one of the following is a valid use case for this service? (Choose 1)
+A. An object store.
+B. A data warehouse.
+C. A transactional database for a bank.
+D. A backend for an Internet of Things (IoT) system.	D. A backend for an Internet of Things (IoT) system.
+
+Feedback: The sparse, wide table format and extremely low write latency of Cloud Bigtable makes it a great option for fast streaming services like IoT.
+You have non-relational data and want a serverless database without having to worry about nodes or cluster management. Which service would best suit your needs? (Choose 1)
+A. Cloud Bigtable
+B. Datastore
+C. Cloud Spanner
+D. Cloud SQL	B. Datastore
+
+Feedback: Cloud Datastore is the only option that does not require the construction of a server.
+Which of the following storage options is not a database? (Choose 1)
+A. BigQuery
+B. Cloud Bigtable
+C. Cloud Spanner
+D. Cloud SQL	A. BigQuery
+
+Feedback: BigQuery is the only option that is not a database. The backend of BigQuery is columnar storage.
+You have analyzed your data and want to transfer relevant files to Cloud Storage. Which data types are most suited for this type of storage? (Choose 2)
+A. Images
+B. Documents
+C. Stock Information
+D. Billing Information
+E. Customer Transactions	A. Images
+B. Documents
+
+Feedback: If you need a solution to hold files, backups, logs, and blobs, a good unstructured solution would be Cloud Storage. If you want to store transactions and other structured data you should use a database.
+You require a storage solution that will host videos to be streamed frequently and globally. The solution must be geographically redundant. Which solution should you choose? (Choose 1)
+A. Archive
+B. Coldline
+C. Nearline
+D. Standard	D. Standard
+
+Feedback: When used in a multi-region, Standard Storage is appropriate for storing data that is accessed around the world, such as serving website content, streaming videos, executing interactive workloads, or serving data supporting mobile and gaming applications.
+You must support the retrieval of objects that have been overwritten or deleted using Cloud Storage. Which feature should you enable to achieve this? (Choose 1)
+A. Archiving
+B. Snapshots
+C. Cloud API
+D. Object Versioning	D. Object Versioning
+
+Feedback: To support the retrieval of objects that are deleted or overwritten, Cloud Storage offers the Object Versioning feature.
+You want to define user access to individual files on a Cloud Storage bucket. You want users to only be able to read from a single object. What type of user permission should you define to achieve this? (Choose 1)
+A. Cloud IAM Role
+B. Actions Viewer Role
+C. Access Control Lists
+D. Access Approval Role	C. Access Control Lists
+
+Feedback: You most likely want to use ACLs if you need to customize access to individual objects within a bucket, since Cloud IAM permissions apply to all objects within a bucket. However, you should still use Cloud IAM for any access that is common to all objects in a bucket, because this reduces the amount of micromanaging you have to do.
+You require a fully managed NoSQL database to store user profile information for your application. Which solution should you deploy? (Choose 1)
+A. Cloud SQL
+B. Cloud Storage
+C. Cloud Spanner
+D. Datastore	D. Datastore
+
+Feedback: Datastore is a highly scalable NoSQL database for applications. It's ideal for storing user profiles to deliver a customized experience based on the user's past activities and preferences.
+You need a fully managed NoSQL database solution for large-scale, low-latency data analytic applications. The database must be able to scale to hundreds of petabytes. Which solution should you deploy? (Choose 1)
+A. Cloud SQL
+B. Cloud Spanner
+C. Cloud Storage
+D. Cloud Bigtable	D. Cloud Bigtable
+
+Feedback: Cloud Bigtable is a petabyte-scale, fully managed NoSQL database service for large analytical and operational workloads.
+[LAB - Cloud Storage: Qwik Start - CLI/SDK] You want to create a bucket with a particular project name. You execute 'gsutil mb gs://project.1' but receive the error message 'BadRequestException'. Why is this the case? (Choose 1)
+A. The bucket name is already taken.
+B. Project.1 is not a valid DNS name.
+C. Project.1 reveals sensitive information.
+D. The bucket name cannot end with a number.	B. Project.1 is not a valid DNS name.
+
+Feedback: Cloud Storage considers bucket names that contain dots to be domain names. Therefore, they must be a syntactically valid DNS name, end with a currently-recognized top-level domain, for example .com, and be created by a user who is authorized to work with the domain name.
+[LAB - Cloud Storage: Qwik Start - CLI/SDK] You have executed the command 'gsutil acl ch -u AllUsers:R gs://bucket1/ada.jpg' in Cloud Shell to make the file available to anyone. What visual indicator in the Storage section of the Cloud Console allows you to verify that the permission level has been set? (Choose 1)
+A. You see a public link to the image.
+B. You see public under storage class
+C. You see AllUsers under permissions.
+D. You see a green tick next to the bucket.	A. You see a public link to the image.
+
+Feedback: You can use the gsutil acl ch command to grant all users read permission for the object stored in your bucket. The image is now public and this can be verified in the Cloud Console. You see your image with the Public link box checked. Click the name of your file and a new browser will open with your image.
+[LAB - Loading Data into Google Cloud SQL] You are deploying Cloud SQL. You need to gain management access to your Cloud SQL instance from Cloud Shell. What action must you take? (Choose 1)
+A. Deny the Cloud Shell instance IP address.
+B. Allow the Cloud Shell instance IP address.
+C. Configure SSH access to the Cloud SQL instance.
+D. Configure management access using the GRANT statement.	B. Allow the Cloud Shell instance IP address.
+
+Feedback: To allow management access to your Cloud SQL instance, you can allow an IP or a range of IP addresses using the --authorized-networks flag, or in the Google Cloud, or using a REST API.
+Which of the following is the most common API format in Google Cloud? (Choose 1)
+A. CLI
+B. gRPC
+C. REST
+D. SOAP	C. REST
+
+Feedback: REST APIs is the default API format for Google Cloud. It is the most common API format today.
+What is the purpose of an API? (Choose 1)
+A. APIs replace web pages.
+B. APIs create GUI interfaces.
+C. APIs simplify the way disparate software resources communicate.
+D. APIs are non-HTTPS interfaces used to interface with web interfaces.	C. APIs simplify the way disparate software resources communicate.
+
+Feedback: APIs are used to simplify the way different, disparate, software resources communicate. APIs provide a uniform format for different applications to communicate.
+Which of the following is the protocol used by REST APIs? (Choose 1)
+A. HTTPS
+B. RDP
+C. SSH
+D. Telnet	A. HTTPS
+
+Feedback: REST API implementations can make use of standards, such as HTTP, URI, JSON, and XML.
+You are looking for a managed API service for your cloud-based services? Which of these services would meet your needs? (Choose 1)
+A. Apigee Edge
+B. Cloud Endpoints
+C. CLI
+D. gRPC	B. Cloud Endpoints
+
+Feedback: Cloud Endpoints is a managed API Service used to create web front ends to Google Cloud services.
+You are looking for a managed API service to provide an API frontend to your legacy systems. Which of these services would meet your needs? (Choose 1)
+A. Apigee Edge
+B. Cloud Endpoints
+C. CLI
+D. gRPC	A. Apigee Edge
+Feedback: Apigee Edge is a platform for developing and managing APIs used for both cloud and legacy systems. Apigee Edge provides an abstraction for your backend service APIs and provides a variety of services including security, rate limiting, quotas, and analytics.
+What are the specifications that Cloud Endpoints supports? (Choose 2)
+A. CLI
+B. gRPC
+C. IEEE
+D. OpenAPI
+E. RFC	B. gRPC
+D. OpenAPI
+Feedback: GRPC and OpenAPI are the two formats that Cloud Endpoints supports.
+True or False. Firebase Authentication and Auth0 are two of the utilities Cloud Endpoints uses to support service-to-service and user authentication.
+A. True
+B. False	A. True
+Feedback: The answer is True. Firebase, Auth0, and Google authentication are all used for service-to-service and user authentication.
+You need a simple and reliable staging location for your event data on its journey towards processing, storage, and analysis. Which one of the following services should you consider? (Choose 1)
+A. Apigee Edge
+B. Dataflow
+C. Cloud Endpoints
+D. Pub/Sub	D. Pub/Sub
+Feedback: Pub/Sub is a global managed service that provides the storage and distribution of messages. Messages use a publish/subscribe delivery format and can be delivered either via push or pull messaging. Pub/Sub can serve as a buffer for applications as messages get processed.
+What are the types of message delivery supported with Pub/Sub? (Choose 2)
+A. Bounce
+B. Poll
+C. Pull
+D. Push	C. Pull
+D. Push
+Feedback: Messages can be delivered via push or pull methods.
+How does Pub/Sub deliver messages to endpoints?
+A. Through an internal ID.
+B. Through a publish/subscribe pattern.
+C. Messages have to be pulled by the front end.
+D. By pushing messages to all available endpoints based on an internal list.	B. Through a publish/subscribe pattern.
+Feedback: Pub/Sub uses a publisher subscription format. Publishers are services or applications that produce messages to another application to process. When messages are placed in a topic, they will ultimately be delivered to an application or service to process via a subscription.
+You want to utilize Cloud Endpoint to control access to your API. What actions can you take to achieve this? (Choose 2)
+A. Generate a SAML token.
+B. Generate and share API keys.
+C. Enable the Google APIs Explorer.
+D. Validate calls with JSON Web Tokens.
+E. Deploy the Identity and Access Management API.	B. Generate and share API keys.
+D. Validate calls with JSON Web Tokens.
+Feedback: Cloud Endpoint allows you to control who has access to your API and validate every call with JSON Web Tokens and Google API keys.
+You have a legacy backend application that you want to gradually move across to the cloud and convert to microservices. What Google Cloud service can you use to progressively convert the APIs from the backend service to the new cloud-based microservices? (Choose 1)
+A. Apigee Edge
+B. Pub/Sub
+C. Cloud Spanner
+D. Cloud Endpoints	A. Apigee Edge
+Feedback: If you have legacy applications that cannot be refactored and moved to the cloud, consider implementing APIs as a facade or adapter layer. Each consumer can then invoke these modern APIs to retrieve information from the backend instead of implementing functionality to communicate using outdated protocols and disparate interfaces.
+You have to implement a solution that allows the Human Resources (HR) system to reliably notify other departmental services that a new employee has been hired without having to directly connect your application to all of the other services. What Google service should you use? (Choose 1)
+A. Apigee Edge
+B. Dataflow
+C. Pub/Sub
+D. Cloud Connector	C. Pub/Sub
+Feedback: Pub/Sub is a real-time messaging service that allows you to capture data and rapidly pass massive amounts of messages between other Google Cloud services and other software applications. One of the primary use cases for inter-app messaging is to ingest streaming event data.
+You need to implement a big data analytics platform in the cloud. Into which phase of the common big data processing model would you place Pub/Sub?
+(Choose 1)
+A. Store
+B. Ingest
+C. Process
+D. Analyze	B. Ingest
+Feedback: Within the common big data processing model, Pub/Sub is found in the Ingest phase.
+You want to deploy and manage an API using Cloud Endpoints. Which application management tasks will Cloud Endpoints help you with ? (Choose 2)
+A. Application sizing
+B. Data protection
+C. Interface definition
+D. Asynchronous messaging
+E. Authentication and authorization	C. Interface definition
+E. Authentication and authorization
+Feedback: When deploying and managing APIs on your own you should consider the language or format you will use to describe the interface, how you will authenticate services and users who invoke your API, how you will ensure that your API scales to meet demand, and whether your infrastructure log details API invocations and provides monitoring metrics.
+You need an application that will send notifications to remote applications that will be offline for extended periods of time. What solution can you implement that will guarantee that the remote applications will receive the notifications when they come back online? (Choose 1)
+A. Cloud API
+B. Cloud Edge
+C. Pub/Sub
+D. Cloud Endpoint	C. Pub/Sub
+Feedback: Pub/Sub acts as a buffer between sending and receiving across software applications, which makes it easier for developers to connect applications. For example, Pub/Sub can be used to guarantee that messages get delivered swiftly to online applications as well as offline applications, when they come back online.
+[LAB - Cloud Endpoints: Qwik Start] You want to utilize Cloud Endpoints to create and manage your REST API. What action must you take to achieve this? (Choose 1)
+A. Deploy the REST API configuration file to Firebase.
+B. Deploy the API's OpenAPI configuration to Service Management.
+C. Create the configuration file using gRPC and upload to the Cloud SDK library.
+D. Deploy the API's OpenAPI configuration using a service account to Google Apps Script API.	B. Deploy the API's OpenAPI configuration to Service Management.
+Feedback: Cloud Endpoints uses Service Management, an infrastructure service of Google Cloud, to create and manage APIs and services. To use Endpoints to manage an API, you deploy the API's OpenAPI configuration to Service Management.
+[LAB - Cloud Endpoints: Qwik Start] You are managing your API using Cloud Endpoints. The activity logs in Cloud Logging indicate that a single client is excessively calling the API. What action can you take to alleviate this? (Choose 1)
+A. Configure VPC quota limits and throttle client traffic.
+B. Deploy a Cloud Endpoints configuration that has a quota.
+C. Deploy Cloud Endpoints Frameworks and throttle the client.
+D. Request additional quota limits using the Cloud Console.	B. Deploy a Cloud Endpoints configuration that has a quota.
+
+Feedback: Cloud Endpoints lets you set quotas so you can control the rate at which applications can call your API. Quotas can be used to protect your API from excessive usage by a single client. After you deploy an updated Endpoints configuration, it becomes active within a minute.
+[LAB - Cloud Endpoints: Qwik Start] You are creating a Cloud Endpoints configuration file for your API. What is the unique identifier that you manually set which will be used to identify the name of the service? (Choose 1)
+A. host
+B. info.title
+C. operationId
+D. info.version	A. host
+Feedback: Cloud Endpoints uses the name you configure in the host field of your OpenAPI document as the name of your service. The name of your API service must be unique on Google Cloud. Because Endpoints uses DNS-compatible names to identify services, Google recommends that you use your API's domain name or subdomain name as the service name.
+[LAB - Google Cloud Pub/Sub: Qwik Start - Python] You are configuring a Pub/Sub instance. What should a subscriber do when they receive a message from a Subscription? (Choose 1)
+A. Acknowledge each message which marks the message as read.
+B. Acknowledge each message and forward it on to other subscribers.
+C. Acknowledge each message within a configurable window of time.
+D. Acknowledge each message and move the message to the Ack store.	C. Acknowledge each message within a configurable window of time.
+Feedback: A subscriber receives pending messages from its subscription and acknowledges each one to the Pub/Sub service. When a message is acknowledged by the subscriber, it is removed from the subscription's message queue.
+Which statement regarding Google Cloud and data encryption is accurate? (Choose 1)
+A. Only data at rest is encrypted.
+B. Only data in transit is encrypted.
+C. Data is encrypted at rest and in transit.
+D. Nothing is encrypted by default. Data must be encrypted by the customer.	C. Data is encrypted at rest and in transit.
+
+Feedback: Google encrypts data at rest and in transit by default. The customer can also encrypt data with customer managed or customer supplied keys.
+When comparing on-premises, IaaS, PaaS, and managed services, which option requires the least amount of work for the user in terms of security? (Choose 1)
+A. IaaS
+B. Managed service
+C. On-premises
+D. PaaS	B. Managed service
+Feedback: Managed services usually also manage some of the security burden rather than the user.
+True or False. Managing Google Cloud users through Google Groups allows an administrator to manage team identities centrally.
+A. True
+B. False	B. False
+Feedback: The answer is False. With Google Groups, if someone leaves the organization or team there's no centralized way to remove their access to the cloud resources immediately. Google Cloud users who are also Google Workspace users can be managed centrally through the Google Admin Console. Alternatively, Cloud Identity can be used for non-Workspace users.
+What is the main purpose of a service account? (Choose 1)
+A. Lock down a user.
+B. Create a user in Google Cloud.
+C. Give permissions to a group of users.
+D. Allow for service-to-service interaction with Google Cloud.	D. Allow for service-to-service interaction with Google Cloud.
+Feedback: Service accounts allow for the authorization of service-to-service interaction.
+What do basic roles grant permissions to? (Choose 1)
+A. Folders
+B. Groups
+C. Organizations
+D. Projects	D. Projects
+Feedback: Basic roles, such as Owner, Editor, and Viewer, apply to projects and services.
+True or False. Admin is an example of a basic role?
+A. True
+B. False	B. False
+Feedback: The answer is False. The basic roles are Owner, Editor, Viewer, and Billing Administrator.
+When setting up user/role pairings in Google Cloud, which of the following is true? (Choose 1)
+A. Permissions are not inherited.
+B. Everyone is a project owner by default.
+C. The user will always inherit the stricter permission applied.
+D. Permissions are inherited and the least restrictive permission will be inherited.	D. Permissions are inherited and the least restrictive permission will be inherited.
+Feedback: Google Cloud uses an inherited permission model. The user will always get the least restrictive permission when inherited.
+What service is used to supply encryption keys when users want to manage their own keys? (Choose 1)
+A. Cloud HSM
+B. Cloud Key Management System
+C. Google is encrypted by default. No keys are required.
+D. The customer must bring their own keys and manage them.	B. Cloud Key Management System
+Feedback: Cloud KMS creates encryption keys in the cloud for customers to manage.
+True or False. Identity-Aware Proxy (IAP) allows you to use an application-level access control model instead of relying on network-level firewalls.
+A. True
+B. False	A. True
+Feedback: The answer is True. IAP lets you establish a central authorization layer for applications over TLS, so you can use an application-level access control model instead of relying on network-level firewalls.
+There are a number of best practices that should be applied to identity and access management. Which of the following does Google recommend? (Choose 1)
+A. Use folders to group instances.
+B. Use custom roles for all objects.
+C. Try to use basic roles instead of pre-defined roles.
+D. Use the "principle of least privilege" when distributing permissions.	D. Use the "principle of least privilege" when distributing permissions.
+Feedback: Because of inheritance, Google recommends using the "principle of least privilege" when granting roles.
+You want to generate your own encryption keys that will be used for securing the data used by an application which will be deployed to Google Cloud. Which Google service allows you to provide the encryption keys as part of your application's Google Cloud API calls? (Choose 1)
+A. Google encryption by default
+B. Scripted encryption keys (SEK)
+C. Customer-supplied encryption keys (CSEK)
+D. Customer-managed encryption keys (CMEK)	C. Customer-supplied encryption keys (CSEK)
+
+Feedback: Customer-supplied encryption keys give users more control over their keys, but with greater management complexity. With CSEK, users use their own AES-256-bit encryption keys. They are responsible for generating these keys.
+Users are responsible for storing the keys and providing them as part of Google Cloud API calls.
+You are migrating an application from your physical infrastructure where you are responsible for security, to a Google-managed services solution. Which layers of security are you now responsible for? (Choose 2)
+A. Usage
+B. Network
+C. Content
+D. Operations
+E. Audit Logging	A. Usage
+C. Content
+Feedback: Google handles many of the lower layers of security like physical security, disk encryption, and network integrity. The upper layers of the security stack - including the securing of data - remain the customers' responsibility.
+You want to encrypt your data and utilize a managed service in addition to the standard encryption process. Which service can you choose that will manage your keys and provide asymmetric key support? (Choose 1)
+A. App Engine
+B. Identity-Aware Proxy
+C. Cloud Key Management Service
+D. Cloud Identity and Access Management	C. Cloud Key Management Service
+Feedback: Cloud Key Management Service, or Cloud KMS, automates and simplifies the generation and management of encryption keys. The keys are managed by the customer and never leave the cloud.
+You want to define a custom IAM role named instanceOperator. The role will only be able to start and stop instances, not delete them. Which level can the role be applied at? (Choose 1)
+A. Folder
+B. Resource
+C. Organization
+D. Compute Engine	C. Organization
+Feedback: Custom roles can only be applied at the project and organization levels.
+You want to map users and groups from your Microsoft Active Directory domain to a Cloud Identity domain. What action should you take to achieve this? (Choose 1)
+A. Sync users and groups using Cloud Directory Sync.
+B. Sync users and groups using Google Cloud Connector.
+C. Enable Azure Active Directory Connect synchronization.
+D. Enable LDAP Directory Synchronization for Active Directory.	A. Sync users and groups using Cloud Directory Sync.
+
+Feedback: Cloud Directory Sync synchronizes users and groups from an existing Active Directory or LDAP system mapping the users and groups in a Cloud Identity domain.
+You have five virtual machines in a project utilizing service accounts. You need to change the permissions of a service account from objectViewer to Editor on two virtual machines. What action should you take to accomplish this? (Choose 1)
+A. Apply a basic role to the VMs.
+B. Modify the service account permission.
+C. Move the virtual machines to a new project.
+D. Recreate the virtual machines and apply the new permissions.	B. Modify the service account permission.
+Feedback: You can grant virtual machines different identities. This makes it easier to manage different permissions across your applications. You also can change the permissions of the service accounts without having to recreate the VMs.
+[User Authentication: Identity-Aware Proxy] You want to control access to your cloud applications running on Google Cloud. You want to intercept web requests sent to your application, authenticate the user making the request and only let through the requests if they come from a user you authorize. What solution can you deploy? (Choose 1)
+A. Apigee
+B. App Engine
+C. Cloud Policy Intelligence
+D. Identity-Aware Proxy	D. Identity-Aware Proxy
+Feedback: Identity-Aware Proxy (IAP) controls access to your cloud applications and VMs running on Google Cloud. IAP works by verifying user identity and context of the request to determine if a user should be allowed to access an application or a VM.
+[User Authentication: Identity-Aware Proxy] You are configuring the Identity-Aware Proxy using the Cloud Console. This is the first time you have enabled an authentication option for this project. What action must you take? (Choose 1)
+A. Configure Domain verification.
+B. Configure a HTTPS Load Balancer.
+C. Configure the OAuth consent screen.
+D. Configure the Application privacy policy.	C. Configure the OAuth consent screen.
+Feedback: The first time you enabled an authentication option for a project, you will see a message to configure your OAuth consent screen before you can use the Identity Aware-Proxy.
+[User Authentication: Identity-Aware Proxy] You want to ensure that the user identity information your app receives is valid so that you can prevent spoofing even if the Identity Aware-Proxy is bypassed. What can you configure in order to achieve this? (Choose 1)
+A. Request headers
+B. Assertion headers
+C. Cryptographic verification
+D. Two-factor authentication	C. Cryptographic verification
+Feedback: If there is a risk of the Identity Aware-Proxy (IAP) being turned off or bypassed, your app can check to make sure the identity information it receives is valid. This uses a third web request header added by IAP, called X-Goog-IAP-JWT-Assertion. The value of the header is a cryptographically signed object that also contains the user identity data. Your application can verify the digital signature and use the data provided in this object to be certain that it was provided by IAP without alteration.
+Virtual private cloud networks (VPCs) allow the deployment of infrastructure as a service resources, such as compute instances and containers. Which of these statements best describes a VPC?
+A. A VPN connection.
+B. Virtual network adapters used for virtual machines.
+C. A software-defined network built on top of Google's network.
+D. A dedicated link from Google Cloud to a customer's network.	C. A software-defined network built on top of Google's network.
+Feedback: A VPC is a software-defined network built on top of Google's global network.
+True or False. 'Regional' is a type of virtual private cloud (VPC).
+A. True
+B. False	B. False
+Feedback: The answer is False. The types of VPCs are Default, Auto, and Custom.
+True or False. Virtual private clouds (VPCs) are global and subnets are zonal.
+A. True
+B. False	B. False
+Feedback: VPCs are global and subnets are regional.
+How many IP addresses does a /24 network have? (Choose 1)
+A. 32
+B. 256
+C. 1024
+D. 65556	B. 256
+Feedback: A /24 network has 256 IP addresses. The /24 in this example dictates how many IP addresses are available. Adding 1 to this number will cut the number of IP addresses available in half.
+What is the purpose of a route? (Choose 1)
+A. A route will always point to a switch.
+B. A route provides a path for traffic to flow.
+C. A route allows or denies traffic in a network.
+D. A route connects two virtual private clouds (VPCs) together.	B. A route provides a path for traffic to flow.
+Feedback: A route provides a path for data to flow. Every subnet in a VPC will also have a route.
+Which of the following is true concerning firewall rules? (Choose 1)
+A. By default, firewall rules don't exist.
+B. Firewall rules block all inbound traffic by default.
+C. Firewall rules allow all inbound and outbound traffic by default.
+D. Firewall rules allow all inbound traffic but denies outbound traffic by default.	B. Firewall rules block all inbound traffic by default.
+
+Feedback: All traffic is blocked inbound by default. If inbound traffic is configured to be permitted inbound, that traffic will also be permitted outbound.
+Your instance needs a public IP address that won't change if the instance is shutdown and restarted. Which of the following is the best option? (Choose 1)
+A. Update the host file on the instance.
+B. Set the IP address on the boot script.
+C. Can't be done. Have users point to the server via DNS name.
+D. Reserve a public static IP address from Google and assign it to the instance.	D. Reserve a public static IP address from Google and assign it to the instance.
+Feedback: Public IP addresses can be allocated by Google and assigned to an instance if a static IP is needed.
+Which load balancing option can be used if you want to distribute web traffic to two applications in different parts of the world? (Choose 1)
+A. HTTP(S) Load Balancer
+B. Internal Load Balancer
+C. Network Load Balancer
+D. TCP Proxy Load Balancer	A. HTTP(S) Load Balancer
+
+Feedback: HTTP(S) load balancers can distribute web traffic to multiple regions that are geographically separated.
+What option would you choose to create a private dedicated 10 GB/s link between Google Cloud and your data center? (Choose 1)
+A. Cloud Interconnect
+B. Peering
+C. VPC sharing
+D. VPN	A. Cloud Interconnect
+Feedback: Cloud Interconnect is used to create dedicated private physical links between Google Cloud and a physical data center.
+You want to create a single location to control traffic to all the virtual private clouds (VPCs) in your organization. What is the best option? (Choose 1)
+A. Cloud Interconnect
+B. Peering
+C. Shared VPC
+D. VPC peering	C. Shared VPC
+Feedback: Shared VPC allows for a central point of control for all VPCs in an organization.
+You want to create two virtual machines in different regions, but in the same project. You want them to be able to communicate directly with each other. What action must you take? (Choose 1)
+A. Route the traffic via a VPN.
+B. Route the traffic via the internet.
+C. Create the VMs in the same region.
+D. Place both VMs in the same VPC Network.	D. Place both VMs in the same VPC Network.
+
+Feedback: Virtual machines that are in different regions but in the same VPC can communicate privately.
+You want to utilize auto subnet mode when creating a network. The broadest prefix that you can use is /16 when expanding your network. Why is this the case?
+(Choose 1)
+A. A broader prefix is not available until you specify a greater scope.
+B. A broader prefix cannot be created as subnets are not automatically defined.
+C. A broader prefix cannot be created as auto subnet created networks are legacy networks.
+D. A broader prefix would conflict with the primary IP ranges of other automatically created subnets.	D. A broader prefix would conflict with the primary IP ranges of other automatically created subnets.
+
+Feedback: When expanding the IP range in an auto mode network, the broadest prefix you can use is /16. Any prefix broader than /16 would conflict with the primary IP ranges of other automatically created subnets. Due to its limited flexibility, an auto mode network is better suited to isolated use cases, such as proof of concepts, testing, and so on.
+You are using custom subnet mode to create a range of subnets. Which subnet range will allow you to use 65,536 IP addresses? (Choose 1)
+A. /16
+B. /17
+C. /24
+D. /25	A. /16
+Feedback: a /16 network has 65,536 IP addresses. The /16 in this example dictates how many IP addresses are available.
+You have created two networks, Network A and B. Network A contains a route to Network B. Currently all 50 of the virtual machines connected to Network A can use the route. You want to limit this number to three. How can you achieve this? (Choose 1)
+A. Create network tags and apply them to the three VMs.
+B. Create a private network between Network A and Network B.
+C. Create a tertiary network to re-route the three VMs network traffic.
+D. Create a firewall rule to only allow ingress traffic for the three VMs.	A. Create network tags and apply them to the three VMs.
+Feedback: Network tags are text attributes you can add to Compute Engine VM instances. Tags allow you to make firewall rules and routes applicable to specific VM instances.
+You have accidentally deleted your firewall rules. What rule is now applied to ingress traffic? (Choose 1)
+A. Deny all
+B. Allow all
+C. Source Only
+D. Destination Only	A. Deny all
+Feedback: If all firewall rules in a network are deleted, there is still an implied "Deny all" ingress rule and an implied "Allow all" egress rule for the network.
+You have successfully created VPC Network Peering between network1 and network2. Network3 is connected to network1. Why is network2 not able to see traffic on network3? (Choose 1)
+A. You do not have an available private IP address.
+B. You have not created the necessary firewall rules.
+C. VPC Network Peering does not support transitive peering.
+D. VPC Network Peering is not supported across organizations.	C. VPC Network Peering does not support transitive peering.
+Feedback: When using VPC Network Peering only directly peered networks can communicate, meaning that transitive peering is not supported.
+[LAB - VPC Networking Fundamentals] You are configuring VPC Networking in the Cloud Console. You navigate to VPC network > VPC networks and find the default network. What is each subnet associated with? (Choose 1)
+A. Each subnet is associated with a zonal range of private IP addresses.
+B. Each subnet is associated with a range of manually created IP addresses.
+C. Each subnet is associated with a Google Cloud region and a private RFC 1918 CIDR block.
+D. Each subnet is associated with a range of static IP addresses and a random RFC 1918 CIDR block.	C. Each subnet is associated with a Google Cloud region and a private RFC 1918 CIDR block.
+
+Feedback: The default network has a range of subnets. Each subnet is associated with a Google Cloud region and a private RFC 1918 CIDR block for its internal IP addresses range and a gateway.
+[Multiple VPC Networks] You execute the following command in Cloud Shell: 'gcloud compute networks create privatenet --subnet-mode=custom'. How will the subnets be created? (Choose 1)
+A. You must choose a range of custom subnets.
+B. You will need to create the subnets manually.
+C. Subnets will be automatically created for you.
+D. Subnets will be created in your default region.	B. You will need to create the subnets manually.
+
+Feedback: A network must have at least one subnet before you can use it. Auto mode VPC networks create subnets in each region automatically. Custom mode VPC networks start with no subnets, giving you full control over subnet creation. You can create more than one subnet per region.
+[VPC Networks - Controlling Access] Your virtual machine is using a service account that has been granted the cloudfunctions.admin role. You are connected to the virtual machine using SSH and attempt to delete a firewall rule. You receive the error 'Insufficient Permission'. Which additional role should you grant to the service account to allow you to delete firewall rules? (Choose 1)
+A. role/viewer
+B. Network Admin
+C. Security Admin
+D. iam.securityReviewer	C. Security Admin
+Feedback: The following roles are used in conjunction with single-project networking to independently control administrative access to each VPC Network: Network Admin: Permissions to create, modify, and delete networking resources, except for firewall rules and SSL certificates. Security Admin: Permissions to create, modify, and delete firewall rules and SSL certificates.
+[LAB - HTTP Load Balancer with Cloud Armor] You require a solution that will restrict or allow access to your HTTP(S) load balancer at the edge of the Google Cloud to prevent malicious traffic from consuming resources? What solution should you deploy? (Choose 1)
+A. Firebase
+B. Firestore
+C. Google DNS Server
+D. Google Cloud Armor IP	D. Google Cloud Armor IP
+
+Feedback: Google Cloud Armor IP deny/allow rules enable you to restrict or allow access to your HTTP(S) load balancer at the edge of the Google Cloud, as close as possible to the user and to malicious traffic. This prevents malicious users or traffic from consuming resources or entering your virtual private cloud (VPC) networks.
+[LAB - HTTP Load Balancer with Cloud Armor] You are configuring ingress firewall rules to allow HTTP traffic to backend instances. What source IP range should be included to specify all networks? (Choose 1)
+A. 127.0.0.1
+B. 0.0.0.0/0
+C. 255.255.255.255
+D. 192.168.1.255/24	B. 0.0.0.0/0
+Feedback:The Source IP ranges field is used to define the source for incoming traffic by IP address ranges. Use 0.0.0.0/0 for a source from any network.
+[LAB - HTTP Load Balancer with Cloud Armor] You have configured HTTP(S) Load Balancing to handle IPv6 and IPv4 addresses for client traffic. Where are the IPv6 requests terminated? (Choose 1)
+A. Global load balancing layer
+B. Internal load balancing layer
+C. Zonal network Endpoint Group
+D. Internet Network Endpoint Group	A. Global load balancing layer
+
+Feedback: HTTP(S) Load Balancing supports both IPv4 and IPv6 addresses for client traffic. Client IPv6 requests are terminated at the global load balancing layer, then proxied over IPv4 to your backends.
+[LAB - HTTP Load Balancer with Cloud Armor] You want to create a group of identical virtual machines from an existing template. These will be used to create backends for a HTTP load balancer. Which type of instance group should you create? (Choose 1)
+A. Sole tenant group
+B. Managed instance group
+C. Network endpoint group
+D. Unmanaged instance group	B. Managed instance group
+Feedback: A managed instance group uses an instance template to create a group of identical instances. Managed instance groups (MIGs) let you operate apps on multiple identical VMs. You can make your workloads scalable and highly available by taking advantage of automated MIG services, including: autoscaling, autohealing, regional (multiple zone) deployment, and automatic updating.
+[LAB - Create an Internal Load Balancer] You want to distribute TCP/UDP based traffic among virtual machine instances in the same region in a Virtual Private Cloud (VPC) network using an internal load balancer. How is load balancing traffic distributed among the virtual machine instances? (Choose 1)
+A. Using a TCP proxy
+B. Using an SSL proxy
+C. Using an external IP address
+D. Using an internal IP address	D. Using an internal IP address
+Feedback: Internal TCP/UDP Load Balancing is a regional load balancer that enables you to run and scale your services behind an internal load balancing IP address that is accessible only to your internal virtual machine (VM) instances. Internal TCP/UDP Load Balancing distributes traffic among VM instances in the same region in a Virtual Private Cloud (VPC) network by using an internal IP address.
+[LAB - Create an Internal Load Balancer] You want to create an internal load balancer to distribute traffic among a number of internal web services. In the Cloud Console, you navigate to Network services > Load balancing. Which option will allow you to create an internal load balancer. (Choose 1)
+A. Cloud NAT
+B. Traffic Director
+C. Only between my VMs
+D. From internet to my VMs	C. Only between my VMs
+Feedback: Choosing Only between my VMs makes this load balancer internal. This choice requires the backends to be in a single region (us-central1) and does not allow offloading TCP processing to the load balancer.
+True or False. Cloud Deployment Manager allows you to specify all the resources needed for your application in a declarative format using YAML.
+A. True
+B. False	A. True
+Feedback: The answer is True. Cloud Deployment Manager is an Infrastructure as Code (IAC) tool, designed for the automated construction, modification, and destruction of cloud infrastructures. Deployment Manager allows you to specify all the resources needed for your application in a declarative format using YAML.
+What statement best describes infrastructure as code (IaC)? (Choose 1)
+A. Replacing virtual servers with containers.
+B. Using Java scripts to build your systems.
+C. Using Templates to build virtual machines.
+D. Automating systems construction using templates.	D. Automating systems construction using templates.
+Feedback: Cloud Deployment Manager is used to automate the building of infrastructure through the use of declarative templates
+Which statement accurately describes Google's relationship with open source infrastructure as code (IaC) tools? (Choose 1)
+A. Open source tools are currently in beta.
+B. Open source IaC tools cannot be used with Google.
+C. Open source tools can only be used with a valid license.
+D. Google has a team of engineers available to support third-party, open source IaC tools.	D. Google has a team of engineers available to support third-party, open source IaC tools.
+Feedback: Google has a team of engineers dedicated to ensuring that Google Cloud support is also available for third-party, open source IaC tools.
+Which service of Google Cloud's operations suite provides visibility of the uptime and overall performance of your app? (Choose 1)
+A. Cloud Debugger
+B. Cloud Logging
+C. Cloud Monitoring
+D. Cloud Trace	C. Cloud Monitoring
+Feedback: Cloud Monitoring provides insight into how your applications are performing.
+What is the operations service that will store, search, and analyse log files? (Choose 1)
+A. Cloud Debugger
+B. Cloud Logging
+C. Cloud Monitoring
+D. Cloud Trace	B. Cloud Logging
+Feedback: The Cloud Logging service allows you to store, search, and analyse log files
+True or False. Google Cloud's operations suite are partner product services that are easily installed through the Cloud Console.
+A. True
+B. False	B. False
+Feedback: The answer is False. The services provided through Google Cloud's operations suite are Google solutions.
+You want to automatically perform a test every 5 minutes to ensure your public web servers are up and running. Which of the following is the best option? (Choose 1)
+A. Open Cloud Shell and periodically ping the servers.
+B. Write a script and use cron to schedule when it runs.
+C. When a web server goes down, have it send a log entry to Cloud Logging to alert on the outage.
+D. Create an uptime check in Cloud Monitoring to periodically test if the web servers are reachable.	D. Create an uptime check in Cloud Monitoring to periodically test if the web servers are reachable.
+
+Feedback: Uptime checks can be configured to periodically test the connection to servers from several remote locations.
+What is the purpose of Error Reporting? (Choose 1)
+A. To inject errors into an application for testing.
+B. To send notifications when an Instance crashes.
+C. To report on storage issues with persistent disks.
+D. To count, analyze, and aggregate crashes in running cloud services in real time.	D. To count, analyze, and aggregate crashes in running cloud services in real time.
+Feedback: Error Reporting counts, analyzes, and aggregates the crashes in your running cloud services in real time
+What is the purpose of Cloud Trace? (Choose 1)
+A. Find performance bottlenecks in production.
+B. Inject errors in an application so the error can be traced.
+C. Send latency statistics to the Error Reporting dashboard.
+D. Collect network latency statistics and publish to a latency dashboard.	A. Find performance bottlenecks in production.
+
+Feedback: With Cloud Trace, you can inspect detailed latency information for a single request or view aggregate latency for your entire application.
+What is the purpose of Cloud Debugger? (Choose 1)
+A. Write code tools to interrogate issues.
+B. Investigate the behavior of code in production.
+C. Report on bugs and send notifications to users.
+D. Slow down an application and step through the code.	B. Investigate the behavior of code in production.
+Feedback: Cloud Debugger allows you to inspect the state of a running application in real time, without stopping or slowing the application down.
+You want to use Cloud Deployment Manager to deploy your templates. Which languages can you use to create your templates? (Choose 2)
+A. Ruby
+B. Bash
+C. Jinja2
+D. Python
+E. Javascript	C. Jinja2
+D. Python
+Feedback: A template file is written in either Python or Jinja2. The Cloud Deployment Manager system will interpret each template recursively and inline the results within the configuration file. The interpretation of each template eventually results in the same YAML syntax for resources as that defined for the configuration file itself.
+You want to use Cloud Deployment Manager to specify all the resources needed for your application using declarative language. How will Deployment Manager deploy your application? (Choose 1)
+A. It will take your configuration and figure out the steps to take to deploy it.
+B. It will prompt you at each stage for your input to ensure the application is built correctly.
+C. It will require you to deploy the basic infrastructure then deploy the application to it.
+D. It will create a configuration file for you to edit. You must validate the configuration file before building the application.	A. It will take your configuration and figure out the steps to take to deploy it.
+Feedback: Many tools use an imperative approach, requiring the user to define the steps to take to create and configure resources. Cloud Deployment Manager uses a declarative approach, allowing the user to specify what the configuration should be and let the system figure out the steps to take.
+You require a way to analyse the performance of CPU or memory-intensive functions executed across an application. The solution must not slow down code execution when carrying out the analysis. Which solution should you use? (Choose 1)
+A. Cloud Trace
+B. Cloud Logging
+C. Cloud Profiler
+D. Cloud Monitoring	C. Cloud Profiler
+Feedback: Cloud Profiler uses statistical techniques and extremely low-impact instrumentation that runs across all production application instances to provide a complete picture of an application's performance without slowing it down.
+Which of the following is a managed solution to run Spark, Pig, Hive, and MapReduce in a batch environment with a managed cluster? (Choose 1)
+A. Dataflow
+B. Dataprep
+C. Dataproc
+D. Cloud Runner	C. Dataproc
+Feedback: Dataproc is a managed Hadoop Cluster where customers can run their Spark, Hive, Pig, and MapReduce environments
+You want to make your Dataproc cluster disposable while keeping your data safe. Which of the following is the best option? (Choose 1)
+A. Leverage persistent disks.
+B. Have the cluster stream data to filestore.
+C. Keep the cluster and continue to use HDFS.
+D. Replace your HDFS filesystem with Cloud Storage.	D. Replace your HDFS filesystem with Cloud Storage.
+Feedback: Cloud Storage can be used as a replacement for the HDFS. In this example, the cluster can be destroyed without losing data.
+You are in need of a service that can process both streaming and batch data, but you don't want to manage the infrastructure. Which of the following is the best solution? (Choose 1)
+A. BigQuery
+B. Dataflow
+C. Dataprep
+D. Dataproc	B. Dataflow
+Feedback: Dataflow is a managed service that can process both batch and streaming data.
+True or False, 'Track' is one of the pipeline components for Dataflow.
+A. True
+B. False	B. False
+Feedback: The answer is False. Dataflow uses a Source of information, a series of PCollections that hold data, and a Sink, where the data will be stored or sent. PCollections are the input and output of every transform operation.
+What code can Dataflow be written in? (Choose 2)
+A. C++
+B. Java
+C. PHP
+D. Python
+E. Ruby	B. Java
+D. Python
+Feedback: Dataflow code can be written in Go, Java, and Python.
+Google provides quick start templates for Dataflow. Why would you use them? (Choose 1)
+A. To help get started coding.
+B. To make it easier to use Spark.
+C. To build pipelines using Cloud Deployment Manager.
+D. To rapidly deploy data pipelines without programming expertise.	D. To rapidly deploy data pipelines without programming expertise.
+Feedback: Google provides quick start templates for Dataflow to allow you to rapidly deploy a number of useful data pipelines without requiring any Apache Beam programming expertise.
+Select the service that is a managed data warehouse in Google Cloud. (Choose 1)
+A. BigQuery
+B. Cloud Bigtable
+C. Datastore
+D. Cloud SQL	A. BigQuery
+Feedback: BigQuery is a fully managed data warehouse and analytics engine. The user will never have to build servers or manage storage to make use of BigQuery.
+Which of the following statements regarding BigQuery is accurate? (Choose 1)
+A. BigQuery is a NoOps managed service.
+B. BigQuery is a drop-in replacement for Oracle.
+C. Before using BigQuery, you have to build a cluster.
+D. BigQuery is a SQL database and requires tight schema.	A. BigQuery is a NoOps managed service.
+Feedback: BigQuery is a fully managed service. No operations on your part are required.
+What service leverages the Apache Beam SDK to perform ETL operations?
+(Choose 1)
+A. Dataflow
+B. Dataprep
+C. Dataproc
+D. Firestore	A. Dataflow
+Feedback: Dataflow leverages the Apache Beam SDK to build pipelines to perform ETL operations on batch and streaming data.
+True or False. Data can be loaded into BigQuery using the BigQuery Web UI, the BigQuery API, or the BQ command line.
+A. True
+B. False	A. True
+Feedback: The answer is True. BigQuery is a fully managed data warehouse and analytics engine. The user will never have to build servers or manage storage to make use of BigQuery. Loading data into the data warehouse can be easily completed by using the Cloud Console, The BigQuery REST based APIs, or through the use of the BigQuery command line (bq)via the SDK.
+You need to create a cluster to carry out nightly batch processing. You only want to pay for the time spent carrying out the processing, not idle time. Which solution should you choose? (Choose 1)
+A. App Engine
+B. Cloud Build
+C. Dataproc
+D. Datastore	C. Dataproc
+Feedback: Dataproc is a managed Spark and Hadoop service that lets you take advantage of open source data tools for batch processing, querying, streaming, and machine learning. Dataproc automation helps you create clusters quickly, manage them easily, and save money by turning clusters off when you don't need them.
+You have a dedicated on-premises cluster which stores and processes logs with MapReduce. You process 100 gigabytes of data per day from several sources and store them on the server. You want to move these functions to Google Cloud to remove dedicated hardware costs, reduce processing time, and store the data offsite. Which solutions can you utilize to achieve this? (Choose 2)
+A. App Engine
+B. Cloud Storage
+C. Cloud Function
+D. Dataproc
+E. Compute Engine	B. Cloud Storage
+D. Dataproc
+Feedback: Cloud Storage can be used to store the data that was previously stored on the server and is a low-cost effective storage option. An ephemeral Dataproc cluster can be created in less than 2 mins. Data is processed with existing MapReduce.
+You want to perform MapReduce operations. You do not have any specific Hadoop package dependencies. However, you prefer to have a hands-on approach to operations and want to create the clusters needed to perform ETL jobs. Which solution should you choose? (Choose 1)
+A. BigQuery
+B. Dataflow
+C. Dataprep
+D. Dataproc	D. Dataproc
+Feedback: Both Dataproc and Dataflow can perform MapReduce operations. The biggest difference between them is that Dataproc works similarly to how Hadoop would work in the physical infrastructure. You would still create a cluster of servers to perform the ETL jobs. In the case of Dataflow, the process is serverless.
+You are migrating your SQL database to BigQuery. Currently, you manage user access using SQL GRANT and REVOKE to enforce database security. What do you now need to use in order to manage user access? (Choose 1)
+A. Manage user access using SQL Management Studio.
+B. Continue using SQL Permissions to manage database security.
+C. Manager user permissions using Cloud Key Management Service.
+D. Manage user permissions using Cloud Identity and Access Management.	D. Manage user permissions using Cloud Identity and Access Management.
+Feedback: Cloud Identity and Access Management is used to grant permission to perform specific actions in BigQuery. This replaces the SQL GRANT and REVOKE statements that are used to manage access permissions in traditional SQL databases.
+You want to use BigQuery to analyze business events in real time. You are unsure of the amount of upfront storage resources you might need to provision and how much CPU and RAM will be required to carry out the analysis. What action will you need to take to ensure you have enough resources? (Choose 1)
+A. BigQuery will notify you when you need to add additional resources.
+B. You need to ensure that adequate resources are provisioned upfront.
+C. BigQuery allocates additional resources for you based on usage patterns.
+D. You need to allocate sufficient resources initially and can reduce them later	C. BigQuery allocates additional resources for you based on usage patterns.
+Feedback: Users don't need to provision resources before using BigQuery, unlike many RDBMS systems. BigQuery allocates storage and query resources dynamically based on usage patterns.
+You need to schedule recurring data loads from Cloud Storage to BigQuery and automate data movement from SaaS applications on a managed basis. How can you achieve this? (Choose 1)
+A. Use the BigQuery Data Transfer Service.
+B. Stream the data to BigQuery using the gsutil tool.
+C. Import data on a daily basis using the Cloud Storage API tool.
+D. Create a script to pull data from Cloud Storage and push it to BigQuery.	A. Use the BigQuery Data Transfer Service.
+
+Feedback: The BigQuery Data Transfer Service for Cloud Storage allows you to schedule recurring data loads from Cloud Storage to BigQuery. It also automates data movement from a range of SaaS applications to BigQuery on a scheduled, managed basis. The BigQuery Data Transfer Service is accessed through the Cloud Console, the BigQuery web UI, the bq command-line tool, or the BigQuery Data Transfer Service API.
+[LAB - Dataflow: Qwik Start - Templates] You want to use a Dataflow template to allow you to stage your pipelines on Cloud Storage and run them from a variety of environments. You choose the Pub/Sub to BigQuery template that will read messages from a Pub/Sub topic and push them to a BigQuery table. What message format does this template use? (Choose 1)
+A. CSV
+B. XML
+C. Avro
+D. JSON	D. JSON
+Feedback: The Pub/Sub Subscription to BigQuery template is a streaming pipeline that reads JSON-formatted messages from a Pub/Sub subscription and writes them to a BigQuery table. You can use the template as a quick solution to move Pub/Sub data to BigQuery. The template reads JSON-formatted messages from Pub/Sub and converts them to BigQuery elements.
+[LAB - Dataflow: Qwik Start - Templates] You are creating a job from a template using Dataflow. In the Cloud Console you select the Pub/Sub Topic to BigQuery template. In what format must you now enter the Pub/Sub input topic information? (Choose 1)
+A. gs://MyBucket/topic
+B. projects/<project>/topics/<topic>
+C. (<project>:<dataset>.<table_name>)
+D. "regions/REGION/zones/ZONE/topics/TOPIC"	B. projects/<project>/topics/<topic>
+Feedback: Pub/Sub topic to read the input from information is entered in the format of 'projects/<project>/topics/<topic>'
+Which of the following statements most accurately describes machine learning? (Choose 1)
+A. Machine learning is a way to generate data needed for analytics.
+B. Machine learning is a way to derive predictive insights from data.
+C. Machine learning uses algorithms that are applicable to a focussed group of datasets.
+D. Machine learning has to do with the theory and methods to build machines that think and act like humans.	B. Machine learning is a way to derive predictive insights from data.
+Feedback: Machine learning is a way to derive 'predictive' insights from data. You do this using algorithms that are relatively general and applicable to a wide variety of datasets.
+Which statement best describes TensorFlow? (Choose 1)
+A. Spark ML at scale.
+B. Scikit-learn at scale.
+C. An open source language to build machine learning models.
+D. A proprietary language for building machine learning models.	C. An open source language to build machine learning models.
+Feedback: TensorFlow was developed by Google and has become the leading open-source tool for building ML models.
+True or False. Machine learning uses standard algorithms because it allows you to use the same code on different datasets to generate different models.
+A. True
+B. False	A. True
+Feedback: The answer is True. ML allows for the use of standard algorithms for generating different models including classification, and linear regression models. The same code can be used on different datasets promoting code reuse.
+Which option would you select if you want to write your own model leveraging Tensorflow in a managed environment? (Choose 1)
+A. AI Platform
+B. AutoML
+C. Dataproc
+D. Google Machine Learning APIs	A. AI Platform
+Feedback: AI Platform is a service that can manage resources for the ML models you build using TensorFlow.
+Which of the following statements best describes AutoML? (Choose 1)
+A. Enables users with no ML expertise to deploy models specific to their business needs.
+B. Enables users with limited ML expertise to train models specific to their business needs.
+C. Enables users with extensive ML expertise to train models specific to their business needs.
+D. Enables users with limited ML expertise to deploy pre-trained models specific to their business needs.	B. Enables users with limited ML expertise to train models specific to their business needs.
+
+Feedback: AutoML is a suite of machine learning products that enables developers with limited machine learning expertise to train high-quality models specific to their business needs. It relies on Google's state-of-the-art transfer learning and neural architecture search technology. AutoML helps customers with limited ML experience to build models based on their data.
+True or False. Facial detection and facial recognition are the key capabilities of the Vision API used to detect what an image is and classify it.
+A. True
+B. False	B. False
+Feedback: The answer is False. While facial detection can detect when a face appears in photos, facial recognition isn't supported and Google doesn't store facial detection information on any Google server.
+There are two APIs that apply to speech. If you need to create a lifelike interaction with users to support a customer service application, which of the two Speech APIs would you use? (Choose 1)
+A. Speech-to-Text
+B. Text-to-Speech	B. Text-to-Speech
+Feedback: With the Text-to-Speech API, you can create lifelike interactions with users that transform customer service, device interaction, and other applications.
+True or False. The Cloud Translation API supports language detection in cases where the source language is unknown.
+A. True
+B. False	A. True
+Feedback: The answer is True. The Cloud Translation API can dynamically translate text between thousands of language pairs. The Cloud Translation API lets websites and programs to programmatically integrate with the translation service The Cloud Translation API supports language detection even in cases where the source language is unknown.
+You have a requirement to identify parts of speech from unstructured text. Which of the following machine learning APIs should you use for this purpose? (Choose 1)
+A. Cloud Natural Language API
+B. Speech-to-Text API
+C. Text-to-Speech API
+D. Cloud Translation API	A. Cloud Natural Language API
+Feedback: The Cloud Natural Language API can do syntax analysis, breaking down sentences into tokens, identifying nouns, verbs, adjectives, and other parts of speech, and figuring out the relationships among the words.
+True or False. The Video Intelligence API only supports the annotation of MPEG4, MP4, and AVI video formats.
+A. True
+B. False	B. False
+Feedback: The answer is False. The Video Intelligence API is similar to the Vision API, where it can perform a variety of actions including logo detection, facial recognition, text discovery, except the Video Intelligence API can provide this same feedback on video. The API supports the annotation of common video formats, including MOV, MPEG4, MP4, and AVI.
+You are using AI Platform to train and evaluate your model in the cloud. Which two sets of data must you provide? (Choose 2)
+A. Groups
+B. Labels
+C. Insights
+D. Features
+E. Properties	B. Labels
+D. Features
+Feedback: The first stage of ML is to train an ML model with examples. An example consists of an input, called a feature, and the correct answer for that input. This is called the label.
+You want to classify and detect images at scale. You want to achieve this by using a machine learning (ML) framework designed for advanced users, so that you can use your Python expertise to write your own computation code. Which ML option do you need? (Choose 1)
+A. TensorFlow
+B. AutoML
+C. Cloud Talent Solution API
+D. Video Intelligence API	A. TensorFlow
+Feedback: TensorFlow is an ML framework which provides more control for advanced users. TensorFlow as a numeric programming library is appealing because you can write your computation code in the high-level language Python and have it be executed in a fast way.
+You are training your ML model but the statistical dataset size is now larger than the amount of memory you have available for analysis. What actions must you now take to ensure that you can continue? (Choose 2)
+A. Split the data into batches.
+B. Decrease the size of the data.
+C. Increase the size of the database.
+D. Scale up by adding more memory to the machine.
+E. Scale out and distribute the data over many machines.	A. Split the data into batches.
+E. Scale out and distribute the data over many machines.
+Feedback: If you have data that fits in memory, pretty much any ML framework will work. Once your datasets get larger these packages won't work. You will need to split your data into batches, and train. However, you will also need to distribute your training over many machines.
+You want to use AutoML to train high-quality models specific to your business needs. What complex steps does AutoML simplify for you? (Choose 2)
+A. Deployment
+B. Data gathering
+C. ML model design
+D. Matrix multiplication
+E. Directed Acyclic Graph creation	A. Deployment
+C. ML model design
+Feedback: AutoML simplies complex steps that are associated with custom ML model building. Data pre-processing, ML model design, tuning of ML model parameters, evaluation, deployment, and update.
+You need to derive insights from images in the cloud for your business. You want to utilize Google's data labeling service so their team can help you annotate your images, videos, and text. Which service should you use? (Choose 1)
+A. TensorFlow
+B. Cloud Talent Solution API
+C. AutoML Vision
+D. AutoML Video Intelligence	C. AutoML Vision
+Feedback: AutoML is a suite of machine learning products that enables developers with limited machine learning expertise to train high-quality models specific to their business needs. Google's human labeling service can put a team of people to work annotating or cleaning your labels to make sure your models are being trained on high-quality data.
+You want to deploy a pre-trained machine language solution that allows customers of a global delivery site to be able to submit queries in their local language via webchat regarding their package. The staff in London must be able to read all the queries in English. What API should you deploy? (Choose 1)
+A. Vision API
+B. Speech API
+C. Cloud Translation API
+D. Cloud Natural Language	C. Cloud Translation API
+Feedback: Translation API's pre-trained model supports more than one hundred languages, from Afrikaans to Zulu. When you don't know your source text language for instance, in user-generated content that doesn't include a language code, Cloud Translation API automatically identifies languages with high accuracy.
+You need a solution that can extract text from scanned documents or images with text. You want the data to be available in a wide range of languages and searchable. What solution can you utilize to achieve this? (Choose 1)
+A. Cloud Talent Solution API
+B. Vision API
+C. Cloud Translation API
+D. Video Intelligence API	B. Vision API
+Feedback: The Vision API takes images with text, like scanned documents or signs and uses optical character recognition, or OCR, to extract the text of a wide range of languages into a selectable, searchable format.
+[LAB - AI Platform: Qwik Start] You want to use AI Platform to build a wide and deep model for predicting income categories based on an income dataset. What does this type of model use to learn high-level abstractions about complex features? (Choose 1)
+A. Deep neural nets
+B. Dynamic networks
+C. Google Kubernetes Engine
+D. Advanced machine learning	A. Deep neural nets
+Feedback: Wide and deep models use deep neural nets (DNNs) to learn high-level abstractions about complex features or interactions between such features. These models then combine the outputs from the DNN with a linear regression performed on simpler features. This provides a balance between power and speed that is effective on many structured data problems.
+[LAB - AI Platform: Qwik Start] You need a way to visualize your machine learning workflow. You want to visualize model graph data and plot quantitative metrics about the execution of your graph to see how it behaves. Which tool allows you to visualize this information? (Choose 1)
+A. TensorBoard
+B. Cloud Monitoring
+C. Google Data Studio
+D. AI Platform Notebooks	A. TensorBoard
+Feedback: In machine learning, to improve something you often need to be able to measure it. TensorBoard is a tool for providing the measurements and visualizations needed during the machine learning workflow. It enables the tracking of experiment metrics like loss and accuracy, visualizing the model graph, projecting embeddings to a lower dimensional space, and much more.
+[LAB - AI Platform: Qwik Start] You want to use your trained model for prediction. You expect your trained model will be hit with many prediction requests in a short period of time and you need a solution that will scale to service these requests. What action can you take to be able to handle the demand? (Choose 1)
+A. Deploy your trained model to Cloud Monitoring.
+B. Deploy your trained model to AI Platform.
+C. Optimize your trained model to handle these requests.
+D. Revalidate your trained model to handle these requests.	B. Deploy your trained model to AI Platform.
+Feedback: To support prediction you should deploy your trained model to AI Platform to serve online prediction requests. You get the benefit of scalable serving, which is useful if you expect your trained model to be hit with many prediction requests in a short period of time.
